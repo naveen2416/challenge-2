@@ -1,0 +1,299 @@
+body{
+    font-family: 'rubik',sans-serif;
+}
+/*BANNER*/
+#banner{
+    background-image:url("../images/bg.png");
+    background-size: cover;
+    height: 750px;
+}
+#banner .container{
+    margin: 0 auto;
+    width: 1140px;
+}
+#banner .flex-container{
+    display: flex;
+    padding: 190px 0;
+}
+#banner .text-flex{
+    flex-basis: 50%;
+    padding: 0 10px;
+}
+#banner .top-text h1{
+    font-size: 16px;
+    font-weight: 400;
+    color: #A0A9B9;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
+#banner .top-text p{
+    font-size: 40px;
+    font-weight: 800;
+    color: #343A40;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+#banner spam{
+    color: #2F55D4;
+}
+#banner .top-text h2{
+    font-size: 15px;
+    font-weight: 400;
+    color: #A0A9B9;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+#banner .bottom-text{
+    margin-top: 24px;
+    padding-top: 20px;
+}
+#banner .text-1{
+    margin-right: 8px;
+    color: white;
+    font-size: 14.4px;
+    padding: 11.2px 22.4px;
+    background-color: #2F55D4;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 14px rgba(47,85,212,.2)
+}
+#banner .text-2{
+    color: white;
+    font-size: 14.4px;
+    padding: 11.2px 22.4px;
+    background-color: #34D1BF;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 14px rgba(47,85,212,.2);
+}
+#banner .form-flex{
+    flex-basis: 33%;
+    width: 340px;
+    margin-left: 190px;
+    padding-left: 15px;
+}
+#banner .form-content{
+    padding: 24px;
+    border: none;
+    background-color: white;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 35px 0 rgba(73,80,87,.05);
+    border-radius: 4px;
+    margin-top: -75px;
+}
+#banner .top-form{
+    text-align: center;
+}
+#banner .top-form p{
+    font-size: 15px;
+    color: #A0AEC0;
+    margin-bottom: 8px;
+    line-height: 1.8;
+    text-transform: uppercase;
+}
+#banner .top-form h1{
+    font-size: 20px;
+    margin-bottom: 24px;
+    color: #343A40;
+    font-weight: 600;
+}
+#banner .name-1{
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+#banner .email-1{
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+#banner .password-1{
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+#banner label{
+    color: #A0A9C2;
+    font-size: 14.4px;
+    display: inline;
+    text-transform: capitalize;
+}
+#banner input{
+    width: 90%;
+    margin-top: 8px;
+    padding: 6px 13px;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    border-radius: 4px;
+    font-size: 14.4px;
+    color: black;
+    line-height: 1.5;
+}
+#banner .button{
+    text-align: center;
+}
+#banner button{
+    width: 100%;
+    background-color: #2F55D4;
+    padding: 4px 8px;
+    font-size: 14.4px;
+    color: white;
+    border-radius: 5px;
+    height: 28px;
+    border: blue;
+}
+#banner i{
+    margin-left: 10px;
+    font-size: 19px;
+}
+/*SERVICES*/
+#services{
+    height: 650px;
+    padding: 80px 0;
+    }
+#services .container{
+    margin: 0 auto;
+    width: 1178px;
+    }
+#services .top-content{ 
+    text-align: center;
+    margin-bottom: 50px;
+    }
+#services .top-content h1{
+    color: blue;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Rubik',sans-serif;
+    margin-bottom: 8px;
+}
+#services .top-content h2{
+    color: black;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: 'Rubik',sans-serif;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+#services .top-content p{
+    font-size: 15px;
+    font-family: 'Rubik',sans-serif;
+    margin-bottom: 16px;
+    color: #A0A9B1;
+    line-height: 1.8;
+}
+#services .middle-content{
+    height: 454px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.middle-content .box{
+padding: 0 15px;
+flex-basis: 30%;
+}
+.middle-content .box-1{
+    padding: 24px;
+    margin-top: 16px;
+    text-align: center;
+}
+.middle-content .box-1 h1{
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    font-family: 'Rubik',sans-serif;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.middle-content .box-1 p{
+    font-size: 15px;
+    line-height: 1.8;
+    color: #A0A9B1;
+}
+.middle-content .box-1 .icon{
+    display: inline;
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #E4EAFA;
+}
+.middle-content .box-1 i{
+    color: #2F55D4;
+}
+.bottom-content{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.bottom-content p{
+    padding: 11.2px 22.4px;
+    font-size: 14.4px;
+    color: white;
+    background-color: #34D1BF;
+    display: inline;
+    border-radius: 7px;
+}
+/*BEST SOLUTION*/
+#best-solution{
+    height: 300px;
+    padding: 80px 0;
+    background-color: #2F55D4;
+}
+#best-solution .container{
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+#best-solution .top-content{
+    text-align: center;
+    padding: 0 15px;
+}
+#best-solution .top-content h1{
+    color: white;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    font-family: 'rubik',sans-serif
+}
+#best-solution .top-content p{
+    color: #FFFFFF80;
+    font-size: 15px;
+    font-family: 'rubik',sans-serif;
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+#best-solution .flex-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+}
+#best-solution .flex-box{
+    text-align: center;
+    padding: 0 15px;
+    flex-basis: 22%;
+    }
+#best-solution .flex-box .box{
+    margin-top: 24px;
+}
+#best-solution .flex-content h1{
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Rubik',sans-serif;
+}
+#best-solution .flex-content p{
+    font-size: 16px;
+    color: #FFFFFF80;
+    margin-bottom: 16px;
+}
+#best-solution .flex-box .icon{
+    margin: 0 auto;
+    font-size: 45px;
+    color: #34D1BF;
+    font-family: 'rubik',sans-serif;
+}
